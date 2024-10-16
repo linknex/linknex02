@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1244;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401E63 ;
+    
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px
+}
+nav div{
+    color: white;
+    font-size: 20px;
+}
+
+/* about us page start   */
+
+#abou_section{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 7px;
+    padding: 50px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.about_image_div{
+    width: 500px;
+}
+.about_image_div img{
+    width: 100%;
+}
+.about_text_div h2{
+    font-size: 80px;
+    color: #1d42b3;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.about_text_div a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1d42b3;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.about_text_div p{
+    color: #1d42b3;
+    font-weight: bold;
+}
